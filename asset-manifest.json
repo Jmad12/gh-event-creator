@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/gh-event-creator/static/css/main.073c9b0a.css",
-    "main.js": "/gh-event-creator/static/js/main.491cfa35.js",
+    "main.css": "/gh-event-creator/static/css/main.9f6ccd7a.css",
+    "main.js": "/gh-event-creator/static/js/main.a44bc994.js",
     "static/js/787.c7e750fa.chunk.js": "/gh-event-creator/static/js/787.c7e750fa.chunk.js",
+    "static/media/SakkalMajalla.ttf": "/gh-event-creator/static/media/SakkalMajalla.b31460d5b7a4cb7ffa43.ttf",
+    "static/media/City - Front.jpg": "/gh-event-creator/static/media/City - Front.0449292244a4ca82f26d.jpg",
+    "static/media/City - Back.jpg": "/gh-event-creator/static/media/City - Back.320499baa5a114d740c0.jpg",
     "service-worker.js": "/gh-event-creator/service-worker.js",
-    "static/media/logo.svg": "/gh-event-creator/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
     "index.html": "/gh-event-creator/index.html",
-    "main.073c9b0a.css.map": "/gh-event-creator/static/css/main.073c9b0a.css.map",
-    "main.491cfa35.js.map": "/gh-event-creator/static/js/main.491cfa35.js.map",
+    "main.9f6ccd7a.css.map": "/gh-event-creator/static/css/main.9f6ccd7a.css.map",
+    "main.a44bc994.js.map": "/gh-event-creator/static/js/main.a44bc994.js.map",
     "787.c7e750fa.chunk.js.map": "/gh-event-creator/static/js/787.c7e750fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.491cfa35.js"
+    "static/css/main.9f6ccd7a.css",
+    "static/js/main.a44bc994.js"
   ]
 }
