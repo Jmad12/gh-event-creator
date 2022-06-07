@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/gh-event-creator/static/css/main.073c9b0a.css",
+    "main.js": "/gh-event-creator/static/js/main.491cfa35.js",
+    "static/js/787.c7e750fa.chunk.js": "/gh-event-creator/static/js/787.c7e750fa.chunk.js",
+    "service-worker.js": "/gh-event-creator/service-worker.js",
+    "static/media/logo.svg": "/gh-event-creator/static/media/logo.103b5fa18196d5665a7e12318285c916.svg",
+    "index.html": "/gh-event-creator/index.html",
+    "main.073c9b0a.css.map": "/gh-event-creator/static/css/main.073c9b0a.css.map",
+    "main.491cfa35.js.map": "/gh-event-creator/static/js/main.491cfa35.js.map",
+    "787.c7e750fa.chunk.js.map": "/gh-event-creator/static/js/787.c7e750fa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.491cfa35.js"
+  ]
+}
