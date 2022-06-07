@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Content from './Content';
+import Sidebar from './Sidebar';
+import {Card, CardType} from './CardType';
+
 
 function App() {
+  const [open, setOpen] = useState(true)
+  const [cards, setCards] = useState([new Card()])
+  const [activeCardIndex, setActiveCardIndex] = useState(0)
+  function modifyActiveCard(newCard : Card){
+    let newCards = [...cards];
+    newCards[activeCardIndex] = newCard;
+    setCards(newCards);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900" >
+      <Content activeCard={cards[activeCardIndex]} modifyActiveCard={modifyActiveCard} setOpen={setOpen}></Content>
+      <Sidebar open={open} setOpen={setOpen} cards={cards} setCards={setCards} setActiveCardIndex={setActiveCardIndex}></Sidebar>
     </div>
   );
 }
